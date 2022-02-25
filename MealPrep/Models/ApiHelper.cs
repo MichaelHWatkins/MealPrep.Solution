@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using RestSharp;
 
-namespace MvcApiCall.Models
+namespace MealPrep.Models
 {
   class ApiHelper
   {

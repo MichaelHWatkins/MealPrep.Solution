@@ -24,4 +24,4 @@
 * 10:09 - 10:30 Added some files to the c# program as a baseline, taking an early lunch to destress after throwing out my old project.
 * 11:50 - 12:20 Continuing to try and get the api call to appear on screen. Added several files in the models, controllers, and views folders.
 * 12:20 - 12:49 Ran into a wall where I am not formatting my model correctly, will continue trying to get past this obstacle.
- 
+* 12:49 - 12:20 Figured out the last hurdle but now having an issue where local host is saying that this site can't provide a secure connection.

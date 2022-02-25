@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using MvcApiCall.Models;
+using MealPrep.Models;
 
-namespace MvcApiCall.Controllers
+
+namespace MealPrep.Controllers
 {
   public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            var allPlans= MealPlan.GetMealPlanDatas(EnvironmentVariables.apiKey);
+            var allPlans= MealPlanData.GetMealPlanDatas(EnvironmentVariables.apiKey);
             return View(allPlans);
         }
     }
