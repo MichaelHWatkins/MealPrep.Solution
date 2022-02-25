@@ -15,8 +15,7 @@ namespace MealPrep.Models
             var apiCallTask = ApiHelper.ApiCall(apiKey);
             string result = apiCallTask.Result;
 
-            var ObjOrderList = new List<MealPlanData> { };
-            ObjOrderList = JsonConvert.DeserializeObject<List<MealPlanData>>(result);
+            Root ObjOrderList = JsonConvert.DeserializeObject<Root>(result);
             return ObjOrderList;
         }
     
