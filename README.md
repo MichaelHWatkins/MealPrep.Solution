@@ -23,3 +23,5 @@
 * 9:39 - 10:09 Decided after looking through bugs and documentation to switch to a new project that is completely C#.
 * 10:09 - 10:30 Added some files to the c# program as a baseline, taking an early lunch to destress after throwing out my old project.
 * 11:50 - 12:20 Continuing to try and get the api call to appear on screen. Added several files in the models, controllers, and views folders.
+* 12:20 - 12:49 Ran into a wall where I am not formatting my model correctly, will continue trying to get past this obstacle.
+ 
