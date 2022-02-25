@@ -10,10 +10,5 @@ namespace MvcApiCall.Controllers
             var allPlans= MealPlan.GetMealPlanDatas(EnvironmentVariables.apiKey);
             return View(allPlans);
         }
-
-        public IActionResult Resources()
-        {
-            return View();
-        }
     }
 }
