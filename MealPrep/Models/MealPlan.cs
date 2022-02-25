@@ -10,16 +10,16 @@ namespace MealPrep.Models
 
     public class MealPlanData
     {
-        public static MealPlanData GetMealPlanDatas(string apiKey)
+        public static List<MealPlanData> GetMealPlanDatas(string apiKey)
         {
             var apiCallTask = ApiHelper.ApiCall(apiKey);
             string result = apiCallTask.Result;
 
-            var ObjOrderList = new MealPlanData { };
-            ObjOrderList = JsonConvert.DeserializeObject<MealPlanData>(result);
+            var ObjOrderList = new List<MealPlanData> { };
+            ObjOrderList = JsonConvert.DeserializeObject<List<MealPlanData>>(result);
             return ObjOrderList;
         }
-    }
+    
         public class Meal
         {
             public int id { get; set; }
@@ -95,5 +95,6 @@ namespace MealPrep.Models
         {
             public Week week { get; set; }
         }
+    }
         
 }
