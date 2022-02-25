@@ -29,3 +29,4 @@
 * 1:53 - 2:19 Continuing to try and deserialize an api call, thinking about switching to a different api call.
 * 2:19 - 2:56 looking up how to deserialize json objects in google.
 * 2:56 - 3:34 reading up on JArray and how to make it work.
+* 3:34 - 3:55 Looking for a better formatted api, stepping away from the computer for 30 mins.
