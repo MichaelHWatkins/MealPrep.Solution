@@ -10,12 +10,13 @@ namespace MealPrep.Models
 
     public class MealPlanData
     {
-        public static List<MealPlanData> GetMealPlanDatas(string apiKey)
+        public static MealPlanData[] GetMealPlanDatas(string apiKey)
         {
             var apiCallTask = ApiHelper.ApiCall(apiKey);
             string result = apiCallTask.Result;
 
-            Root ObjOrderList = JsonConvert.DeserializeObject<Root>(result);
+            
+            var ObjOrderList = JsonConvert.DeserializeObject<MealPlanData[]>(result);
             return ObjOrderList;
         }
     

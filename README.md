@@ -26,4 +26,5 @@
 * 12:20 - 12:49 Ran into a wall where I am not formatting my model correctly, will continue trying to get past this obstacle.
 * 12:49 - 1:20 Figured out the last hurdle but now having an issue where local host is saying that this site can't provide a secure connection.
 * 1:20 - 1:53 Trying to deserialize an object.
-* 1:53 - 1:19 Continuing to try and deserialize an api call, thinking about switching to a different api call.
+* 1:53 - 2:19 Continuing to try and deserialize an api call, thinking about switching to a different api call.
+* 2:19 - 2:56 looking up how to deserialize json objects in google.
