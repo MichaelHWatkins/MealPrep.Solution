@@ -32,3 +32,4 @@
 * 3:34 - 3:55 Looking for a better formatted api, stepping away from the computer for 30 mins.
 * 4:00 - 4:30 Ended up finding a way to make the spoonacular api work, on to the next hurdle.
 * 4:30 - 4:48 Added in a front page that displays a full days worth of meals.
+* 4:48 - 5:28 Researched Mysql and reread lessons on how to save information.
