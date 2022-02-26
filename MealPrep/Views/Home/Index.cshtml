@@ -3,6 +3,19 @@
 @using System.Web;
 @using System;
 
+<h1>Meals for the day</h1>
 
+<h1>Breakfast</h1>
 
-<p>@Model.week.monday</p>
+<h3>@Model.meals[0].title</h3>
+<p>@Model.meals[0].sourceUrl</p>
+
+<h1>Lunch</h1>
+
+<h3>@Model.meals[1].title</h3>
+<p>@Model.meals[1].sourceUrl</p>
+
+<h1>Dinner</h1>
+
+<h3>@Model.meals[2].title</h3>
+<p>@Model.meals[2].sourceUrl</p>
