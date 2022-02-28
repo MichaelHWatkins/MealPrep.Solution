@@ -4,7 +4,7 @@ namespace MealPrep.Models
 {
   public class MealPrepContext : DbContext
   {
-    public DbSet<Item> Items { get; set; }
+    public DbSet<Meal> Meals { get; set; }
 
     public MealPrepContext(DbContextOptions options) : base(options) { }
   }
