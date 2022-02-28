@@ -43,3 +43,6 @@
 * 9:00 - 9:30 Now stuck trying to figure out how to get a form to appear on the api view. 
 * 9:30 - 9:56 Rethought how my app will work and in the process of putting the form in.
 * 9:56 - 10:28 Added in a details rough draft. Will have to redo the api call to change it to a better type of call.
+
+#### Monday, 02/28
+* 4:00 - 4:27 Added Update and delete functionality. Still need to clean it all up but starting to come together.
