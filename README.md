@@ -36,4 +36,5 @@
 
 #### Sunday, 02/27
 * 5:00 - 5:30  Attempting to add mysql db to the project, if it will work well with the api call has yet to be seen.
-* 5:30 - 5:58 Got the api webpage to start up again, had to add entity framework into the using statements in startup.cs
+* 5:30 - 5:58 Got the api webpage to start up again, had to add entity framework into the using statements in startup.cs.
+* 6:00 - 6:27 Relearned how Linq works and created a meals controller. Looking into how I'm going to get info from the API page to the database index page.
