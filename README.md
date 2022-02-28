@@ -33,3 +33,6 @@
 * 4:00 - 4:30 Ended up finding a way to make the spoonacular api work, on to the next hurdle.
 * 4:30 - 4:48 Added in a front page that displays a full days worth of meals.
 * 4:48 - 5:28 Researched Mysql and reread lessons on how to save information.
+
+#### Sunday, 02/27
+* 5:00 - 5:30  Attempting to add mysql db to the project, if it will work well with the api call has yet to be seen.

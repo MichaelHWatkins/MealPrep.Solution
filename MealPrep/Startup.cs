@@ -13,16 +13,22 @@ namespace MealPrep
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IWebHostEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json"); 
+            Configuration = builder.Build();
         }
-
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; set;}
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddMvc();
+
+            services.AddEntityFrameworkMySql()
+            .AddDbContext<MealPrepContext>(options => options
+            .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
