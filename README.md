@@ -48,3 +48,4 @@
 * 4:00 - 4:27 Added Update and delete functionality. Still need to clean it all up but starting to come together.
 * 4:27 - 4:58 Researched a better api call from the spoonacular api.
 * 4:58 - 5:27 Hit a block on how to pass a variable from a form into an api call.
+* 5:27 - 6:26 Spent the past hour trying to find an example of a variable being taken from a form and put into an api call.
