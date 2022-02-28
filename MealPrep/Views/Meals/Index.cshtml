@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+@using MealPrep.Models;
+
+<h1>Meals</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No Meals have been added yet!</h3>
+} 
+
+@foreach (Meal meal in Model)
+{
+  <li>@meal.Breakfast</li>
+}
