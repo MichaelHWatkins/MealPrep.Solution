@@ -41,3 +41,4 @@
 * 6:27 - 6:58 Got the db table set up and now going through errors trying to make it appear on the screen.
 * 6:58 - 7:32 Got the database screen to appear. On to creating a form for users to put meal info into.
 * 9:00 - 9:30 Now stuck trying to figure out how to get a form to appear on the api view. 
+* 9:30 - 9:56 Rethought how my app will work and in the process of putting the form in.

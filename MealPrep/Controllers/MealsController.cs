@@ -19,5 +19,18 @@ namespace MealPrep.Controllers
       List<Meal> model = _db.Meals.ToList();
       return View(model);
     }
+
+    public ActionResult Create()
+    {
+      return View();
+    }
+
+    [HttpPost]
+    public ActionResult Create(Meal meal)
+    {
+      _db.Meals.Add(meal);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
   }
 }

@@ -6,5 +6,6 @@ namespace MealPrep.Models
     public string Breakfast { get; set; }
     public string Lunch { get; set; }
     public string Dinner { get; set; }
+    public string Date { get; set; }
   }
 }
