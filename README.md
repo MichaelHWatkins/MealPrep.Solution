@@ -49,3 +49,4 @@
 * 4:27 - 4:58 Researched a better api call from the spoonacular api.
 * 4:58 - 5:27 Hit a block on how to pass a variable from a form into an api call.
 * 5:27 - 6:26 Spent the past hour trying to find an example of a variable being taken from a form and put into an api call.
+* 6:26 - 6:58 Found a promising youtube video that calls two different apis, will pursue that.
