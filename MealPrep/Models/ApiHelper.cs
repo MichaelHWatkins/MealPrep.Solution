@@ -5,7 +5,7 @@ namespace MealPrep.Models
 {
   class ApiHelper
   {
-    public static async Task<string> ApiCall(string apiKey)
+    public static async Task<string> ApiCall(string apiKey, string ingredient)
     {
       RestClient client = new RestClient("https://api.spoonacular.com/recipes");
       RestRequest request = new RestRequest($"complexSearch?query={ingredient}&addRecipeInformation=true&apiKey={apiKey}", Method.GET);

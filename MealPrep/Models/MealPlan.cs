@@ -10,9 +10,9 @@ namespace MealPrep.Models
 
     public class MealPlanData
     {
-        public static JObject GetMealPlanDatas(string apiKey)
+        public static JObject GetMealPlanDatas(string apiKey, string ingredient)
         {
-            var apiCallTask = ApiHelper.ApiCall(apiKey);
+            var apiCallTask = ApiHelper.ApiCall(apiKey, ingredient);
             string result = apiCallTask.Result;
             dynamic stuff = JObject.Parse(result);
             return stuff;
