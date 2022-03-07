@@ -51,3 +51,8 @@
 * 5:27 - 6:26 Spent the past hour trying to find an example of a variable being taken from a form and put into an api call.
 * 6:26 - 6:58 Found a promising youtube video that calls two different apis, will pursue that.
 * 6:58 - 7:55 Finished the youtube video, very informative and got some ideas on how to implement my api call.
+
+#### Monday, 03/07
+* 9:00 - 9:36 Working on changing the api call I am making to make it more useful to the user.
+* 9:36 - 10:00 Working on the api call.
+* 10:00 - 10:29 Working on the index view to display the api call.

@@ -3,10 +3,20 @@
 @using System.Web;
 @using System;
 
-<h1>What are ya hungry for?</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>What do you want to eat?</title>
+  </head>
+  <body>
+    <form action="/meals" method="post">
+      <label for="ingredient">Add a new item</label>
+      <input id="ingredient" name="ingredient" type="text">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
 
-<h1>Meal</h1>
 
-<h3>@Model.meals[0].title</h3>
-<p>@Model.meals[0].sourceUrl</p>
 
