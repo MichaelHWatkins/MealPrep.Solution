@@ -12,12 +12,12 @@ namespace MealPrep.Controllers
             return View();
         }
 
-        [Route("/meals/new")]
+        [Route("/addMeals/new")]
         public ActionResult CreateForm()
         {
             return View();
         }
-        [Route("/items")]
+        [Route("/addMeals")]
         public ActionResult Create(string ingredient)
         {
             

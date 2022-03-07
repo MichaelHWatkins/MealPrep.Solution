@@ -56,3 +56,5 @@
 * 9:00 - 9:36 Working on changing the api call I am making to make it more useful to the user.
 * 9:36 - 10:00 Working on the api call.
 * 10:00 - 10:29 Working on the index view to display the api call.
+* 10:29 - 11:00 Trying to fix an ef bug.
+* 11:00 - 11:30 Continuing to work on the api call.
