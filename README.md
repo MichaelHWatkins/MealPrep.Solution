@@ -58,3 +58,4 @@
 * 10:00 - 10:29 Working on the index view to display the api call.
 * 10:29 - 11:00 Trying to fix an ef bug.
 * 11:00 - 11:30 Continuing to work on the api call.
+* 11:30 - 11:57 Fixed the api call, now cleaning up the model info.
