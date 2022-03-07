@@ -1,0 +1,11 @@
+@using MealPrep.Models;
+
+<h1>Meals from your searched ingredient</h1>
+
+@if (@Model == null){
+  <h1>Go to the submission page to get ingredients.</h1>
+}
+else
+{
+  <h1>@Model</h1>  
+}

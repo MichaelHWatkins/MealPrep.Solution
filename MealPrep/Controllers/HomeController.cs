@@ -6,11 +6,23 @@ namespace MealPrep.Controllers
 {
   public class HomeController : Controller
     {
-        public IActionResult Index()
+        [Route("/")]
+        public ActionResult Index()
         {
-            var allPlans= MealPlanData.GetMealPlanDatas(EnvironmentVariables.apiKey);
-            return View(allPlans);
+            return View();
         }
-        
+
+        [Route("/meals/new")]
+        public ActionResult CreateForm()
+        {
+            return View();
+        }
+        [Route("/items")]
+        public ActionResult Create(string ingredient)
+        {
+            
+            var allPlans= MealPlanData.GetMealPlanDatas(EnvironmentVariables.apiKey, ingredient);
+            return View("Index", allPlans);
+        }
     }
 }
