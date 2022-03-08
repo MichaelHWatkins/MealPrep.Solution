@@ -65,3 +65,4 @@
 * 11:00 - 11:30 Spent time thinking about what I want the project to look like.
 * 11:30 - 12:09 Added stuff to the front and validating the db still works.
 * 12:09 - 1:14 Confirmed that everything is working. On to styling!
+* 1:14 - 1:27 Found a new bug, working on it now.
