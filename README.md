@@ -64,3 +64,4 @@
 * 9:00 - 9:30 Fixing up the api call.
 * 11:00 - 11:30 Spent time thinking about what I want the project to look like.
 * 11:30 - 12:09 Added stuff to the front and validating the db still works.
+* 12:09 - 1:14 Confirmed that everything is working. On to styling!
