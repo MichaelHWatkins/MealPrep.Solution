@@ -67,3 +67,4 @@
 * 12:09 - 1:14 Confirmed that everything is working. On to styling!
 * 1:14 - 1:27 Found a new bug, working on it now.
 * 1:27 - 2:03 Continuing to research the bug!
+* 2:03 - 2:55 Fixed the bug.

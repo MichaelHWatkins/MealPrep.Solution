@@ -15,6 +15,7 @@ namespace MealPrep.Controllers
       _db = db;
     }
 
+    [HttpGet("/meals")]
     public ActionResult Index()
     {
       List<Meal> model = _db.Meals.ToList();
