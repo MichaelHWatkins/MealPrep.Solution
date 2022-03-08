@@ -62,3 +62,4 @@
 
 #### Tuesday, 03/08
 * 9:00 - 9:30 Fixing up the api call.
+* 11:00 - 11:30 Spent time thinking about what I want the project to look like.
