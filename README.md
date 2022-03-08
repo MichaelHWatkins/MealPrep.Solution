@@ -59,3 +59,6 @@
 * 10:29 - 11:00 Trying to fix an ef bug.
 * 11:00 - 11:30 Continuing to work on the api call.
 * 11:30 - 11:57 Fixed the api call, now cleaning up the model info.
+
+#### Tuesday, 03/08
+* 9:00 - 9:30 Fixing up the api call.
