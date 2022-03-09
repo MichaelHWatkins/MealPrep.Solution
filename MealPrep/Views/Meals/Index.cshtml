@@ -13,5 +13,5 @@
 
 @foreach (Meal meal in Model)
 {
-  <li>@meal.Date</li>
+  <li>@Html.ActionLink("@meal.Date", "Details", "Meals")</li>
 }
