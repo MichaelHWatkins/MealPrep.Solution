@@ -85,3 +85,4 @@
 * 1:30 - 1:58 Researched ActionLink and started implementing it.
 * 1:58 - 2:49 Playing around with css and linking everything up.
 * 2:49 - 3:20 Can't seem to get the details page to display correctly.
+* 3:20 - 3:52 Resolved a display issue.
