@@ -9,8 +9,6 @@ namespace MealPrep.Controllers
         [Route("/")]
         public ActionResult Index()
         {
-            MealAndMealPlanViewModel model = new MealAndMealPlanViewModel();
-            model.MealData = 
             return View();
         }
 

@@ -1,5 +1,4 @@
 @using MealPrep.Models;
-@model MealPrep.Models.Meal
 
 @{
   Layout = "_Layout";
@@ -21,7 +20,7 @@
 else
 {
   <div class="underline">
-  <h1 class="underline"><a href=@Model.results[0].sourceUrl>@Model.results[0].title</a></h1>
+  <h1 class="underline"><a href=@Model.MealPlanData.results[0].sourceUrl>@Model.results[0].title</a></h1>
   <img src=@Model.results[0].image>
   </div>
   <div class="underline">
@@ -35,18 +34,3 @@ else
 }
 
 
-<h4>Add a new Meal Plan</h4>
-@using (Html.BeginForm())
-{
-  @Html.LabelFor(model => model.Breakfast)
-  @Html.TextBoxFor(model => model.Breakfast)
-  @Html.LabelFor(model => model.Lunch)
-  @Html.TextBoxFor(model => model.Lunch)
-  @Html.LabelFor(model => model.Dinner)
-  @Html.TextBoxFor(model => model.Dinner)
-  @Html.LabelFor(model => model.Date)
-  @Html.TextBoxFor(model => model.Date)
-  <input type="submit" value="Add new Meal plan" />
-}
-
-</div>

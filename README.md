@@ -79,3 +79,4 @@
 * 9:30 - 10:00 Researching how to put two different models in the same page.
 * 11:00 - 11:30 Continuing to attempt a combined view.
 * 11:30 - 11:55 Continuing to research my issue.
+* 11:55 - 12:27 Created a bug in the program, looking for it now.
