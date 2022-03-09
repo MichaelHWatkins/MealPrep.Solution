@@ -80,3 +80,4 @@
 * 11:00 - 11:30 Continuing to attempt a combined view.
 * 11:30 - 11:55 Continuing to research my issue.
 * 11:55 - 12:27 Created a bug in the program, looking for it now.
+* 12:27 - 1:10 Found the bug.
