@@ -69,3 +69,4 @@
 * 1:27 - 2:03 Continuing to research the bug!
 * 2:03 - 2:55 Fixed the bug.
 * 4:00 - 4:30 Created a color scheme for the website!
+* 4:30 - 4:55 Trying to figure out how to make the css work.
