@@ -1,6 +1,9 @@
 @using MealPrep.Models;
-
+@{
+  Layout = "_Layout";
+}
 <!DOCTYPE html>
+<div class="background">
 <html>
   <head>
     <meta charset="utf-8">
@@ -32,3 +35,4 @@ else
   <img src=@Model.results[2].image>
   <h1>@Model.results[2].sourceUrl</h1>
 }
+</div>
