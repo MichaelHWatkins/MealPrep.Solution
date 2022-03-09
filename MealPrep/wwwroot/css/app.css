@@ -1,3 +1,14 @@
 .background {
-  background-color: goldenrod;
+  background-color: #0CCE6B;
+}
+
+.center {
+  text-align: center;
+}
+
+.searchBar {
+  background-color: #ED7D3A;
+  position: absolute;
+  top: 0;
+  padding: 10px;
 }

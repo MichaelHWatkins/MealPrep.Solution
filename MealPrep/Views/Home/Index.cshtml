@@ -3,21 +3,14 @@
   Layout = "_Layout";
 }
 <!DOCTYPE html>
-<div class="background">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>What do you want to eat?</title>
-  </head>
-  <body>
-    <form action="/addMeals" method="post">
-      <label for="ingredient">Add a new item</label>
-      <input id="ingredient" name="ingredient" type="text">
-      <button type="submit">Submit</button>
-    </form>
-  </body>
-</html>
-
+<div class="center">
+<div class="searchBar">
+  <form action="/addMeals" method="post">
+    <label for="ingredient">Add a new item</label>
+    <input id="ingredient" name="ingredient" type="text">
+    <button type="submit">Submit</button>
+  </form>
+</div>
 <h1>Meal from your searched ingredient</h1>
 
 @if (@Model == null){
