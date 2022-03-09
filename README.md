@@ -73,3 +73,4 @@
 * 4:55 - 5:33 Making headway, still making stuff though.
 * 5:33 - 6:01 Continuing to work on css.
 * 6:01 - 6:58 Playing with css and getting input from peers.
+* 9:00 - 9:30 Working with trying to get two models into one view.
