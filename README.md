@@ -72,3 +72,4 @@
 * 4:30 - 4:55 Trying to figure out how to make the css work.
 * 4:55 - 5:33 Making headway, still making stuff though.
 * 5:33 - 6:01 Continuing to work on css.
+* 6:01 - 6:58 Playing with css and getting input from peers.

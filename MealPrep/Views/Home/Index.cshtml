@@ -18,14 +18,17 @@
 }
 else
 {
-  <h1>@Model.results[0].title</h1>
+  <div class="underline">
+  <h1 class="underline"><a href=@Model.results[0].sourceUrl>@Model.results[0].title</a></h1>
   <img src=@Model.results[0].image>
-  <h1>@Model.results[0].sourceUrl</h1>
-  <h1>@Model.results[1].title</h1>
+  </div>
+  <div class="underline">
+  <h1 class="underline"><a href=@Model.results[1].sourceUrl>@Model.results[1].title</a></h1>
   <img src=@Model.results[1].image>
-  <h1>@Model.results[1].sourceUrl</h1>
-  <h1>@Model.results[2].title</h1>
+  </div>
+  <div class="underline">
+  <h1 class="underline"><a href=@Model.results[2].sourceUrl>@Model.results[2].title</a></h1>
   <img src=@Model.results[2].image>
-  <h1>@Model.results[2].sourceUrl</h1>
+  </div>
 }
 </div>
