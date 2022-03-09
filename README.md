@@ -78,3 +78,4 @@
 * 9:00 - 9:30 Working with trying to get two models into one view.
 * 9:30 - 10:00 Researching how to put two different models in the same page.
 * 11:00 - 11:30 Continuing to attempt a combined view.
+* 11:30 - 11:55 Continuing to research my issue.
