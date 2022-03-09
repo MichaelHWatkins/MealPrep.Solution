@@ -1,5 +1,7 @@
 
-
+@{
+  Layout = "_Layout";
+}
 @using MealPrep.Models;
 
 <h1>Meals</h1>
@@ -11,5 +13,5 @@
 
 @foreach (Meal meal in Model)
 {
-  <li>@meal.Breakfast</li>
+  <li>@meal.Date</li>
 }

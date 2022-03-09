@@ -83,3 +83,4 @@
 * 12:27 - 1:10 Found the bug.
 * 1:10 - 1:30 Spent some time thinking where I want to go next with the project.
 * 1:30 - 1:58 Researched ActionLink and started implementing it.
+* 1:58 - 2:49 Playing around with css and linking everything up.
