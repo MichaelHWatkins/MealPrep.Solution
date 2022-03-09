@@ -82,3 +82,4 @@
 * 11:55 - 12:27 Created a bug in the program, looking for it now.
 * 12:27 - 1:10 Found the bug.
 * 1:10 - 1:30 Spent some time thinking where I want to go next with the project.
+* 1:30 - 1:58 Researched ActionLink and started implementing it.
