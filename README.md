@@ -73,5 +73,8 @@
 * 4:55 - 5:33 Making headway, still making stuff though.
 * 5:33 - 6:01 Continuing to work on css.
 * 6:01 - 6:58 Playing with css and getting input from peers.
+
+#### Wednesday, 03/09
 * 9:00 - 9:30 Working with trying to get two models into one view.
 * 9:30 - 10:00 Researching how to put two different models in the same page.
+* 11:00 - 11:30 Continuing to attempt a combined view.
