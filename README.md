@@ -96,3 +96,4 @@
 #### Thursday, 03/10
 * 9:30 - 9:45 Trying to get a link in the details page, currently not liking the => symbol.
 * 9:45 - 9:58 Removed what I was trying to do in the details page, but now theres a bug, trying to stay calm and carry on.
+* 9:58 - 10:29 Tried restarting my computer to see if the bug would be fixed that way, it did not fix the bug.
