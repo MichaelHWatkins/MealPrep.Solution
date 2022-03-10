@@ -91,3 +91,5 @@
 * 4:57 - 5:31 For some reason the css stylesheet is being unresponsive.
 * 7:00 - 7:45 Got the stylesheet to be responsive, working on styling now.
 * 7:45 - 8:30 Continuing to work on styling, mainly working on the nav bar.
+* 8:30 - 9:00 Fixed the nav bar to a rough state.
+* 9:30 - 9:45 Trying to get a link in the details page, currently not liking the => symbol.
