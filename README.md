@@ -88,3 +88,5 @@
 * 3:20 - 3:52 Resolved a display issue.
 * 3:52 - 4:29 Continuing to connect things.
 * 4:29 - 4:57 Trying to make a nav bar.
+* 4:57 - 5:31 For some reason the css stylesheet is being unresponsive.
+* 7:00 - 7:45 Got the stylesheet to be responsive, working on styling now.

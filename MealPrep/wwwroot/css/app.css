@@ -8,15 +8,10 @@
 
 .searchBar {
   background-color: #ED7D3A;
-  position: absolute;
   top: 0;
+  float: left;
 }
 
-.searchBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 .underline {
   border-bottom: solid, 10px, black;

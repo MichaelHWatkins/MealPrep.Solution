@@ -5,17 +5,17 @@
 }
 <!DOCTYPE html>
 <div class="center">
-<div class="searchBar">
-  <ul>
-  <li><form action="/addMeals" method="post">
-    <label for="ingredient">Add a new item</label>
-    <input id="ingredient" name="ingredient" type="text">
-    <button type="submit">Submit</button>
-  </form> </li>
-  <li><p>@Html.ActionLink("Add meals to Planner", "Create", "Meals") </p></li>
-  <li><p>@Html.ActionLink("See Meal Plans", "Index", "Meals")</p></li>
-  </ul>
-</div>
+
+  
+    <form class="searchBar" action="/addMeals" method="post">
+      <label for="ingredient">Add a new item</label>
+      <input id="ingredient" name="ingredient" type="text">
+      <button type="submit">Submit</button>
+    </form> 
+    <p class="searchBar">@Html.ActionLink("Add meals to Planner", "Create", "Meals") </p>
+    <p class="searchBar">@Html.ActionLink("See Meal Plans", "Index", "Meals")</p>
+  
+
 <h1>Meals from your searched ingredient</h1>
 
 @if (@Model == null){
