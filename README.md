@@ -90,3 +90,4 @@
 * 4:29 - 4:57 Trying to make a nav bar.
 * 4:57 - 5:31 For some reason the css stylesheet is being unresponsive.
 * 7:00 - 7:45 Got the stylesheet to be responsive, working on styling now.
+* 7:45 - 8:30 Continuing to work on styling, mainly working on the nav bar.
