@@ -98,3 +98,4 @@
 * 9:45 - 9:58 Removed what I was trying to do in the details page, but now theres a bug, trying to stay calm and carry on.
 * 9:58 - 10:29 Tried restarting my computer to see if the bug would be fixed that way, it did not fix the bug.
 * 10:29 - 10:53 Continuing to work on the bug, getting peer suppport.
+* 10:53 - 11:39 Figured out the bug, there was an issue with the database, had to manually create a new table.

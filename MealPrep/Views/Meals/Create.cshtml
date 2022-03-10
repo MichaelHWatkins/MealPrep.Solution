@@ -6,12 +6,12 @@
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Breakfast)
-  @Html.TextBoxFor(model => model.Breakfast)
+  @Html.TextBoxFor(model => model.Breakfast, new {required="required"})
   @Html.LabelFor(model => model.Lunch)
-  @Html.TextBoxFor(model => model.Lunch)
+  @Html.TextBoxFor(model => model.Lunch, new {required="required"})
   @Html.LabelFor(model => model.Dinner)
-  @Html.TextBoxFor(model => model.Dinner)
+  @Html.TextBoxFor(model => model.Dinner, new {required="required"})
   @Html.LabelFor(model => model.Date)
-  @Html.TextBoxFor(model => model.Date)
+  @Html.TextBoxFor(model => model.Date, new {required="required"})
   <input type="submit" value="Add new Meal plan" />
 }

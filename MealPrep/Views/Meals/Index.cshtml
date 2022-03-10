@@ -3,17 +3,22 @@
   Layout = "_Layout";
 }
 @using MealPrep.Models;
+@model List<MealPrep.Models.Meal>
 
 <h1>Meals</h1>
 
-@if (@Model.Count == 0)
+@if (Model.Any())
+{
+  @foreach (Meal meal in Model)
+{
+  <li>@Html.ActionLink(meal.Date, "Details", new { id = meal.MealId })</li>
+}
+  
+} 
+else
 {
   <h3>No Meals have been added yet!</h3>
-} 
-
-@foreach (Meal meal in Model)
-{
-  <li>@Html.ActionLink("meal.Date", "Details", new { id = @meal.MealId })</li>
 }
+
 
 <p>@Html.ActionLink("Back to meal generator", "Index", "Home")</p>
