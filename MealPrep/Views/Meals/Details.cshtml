@@ -9,3 +9,5 @@
 <h3>@Html.DisplayFor(model => model.Breakfast)<h3>
 <h3>@Html.DisplayFor(model => model.Lunch)<h3>
 <h3>@Html.DisplayFor(model => model.Dinner)<h3>
+
+@Html.ActionLink("Delete this meal plan", "Delete", new { id = @Model.MealId })

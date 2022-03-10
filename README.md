@@ -86,3 +86,4 @@
 * 1:58 - 2:49 Playing around with css and linking everything up.
 * 2:49 - 3:20 Can't seem to get the details page to display correctly.
 * 3:20 - 3:52 Resolved a display issue.
+* 3:52 - 4:29 Continuing to connect things.
