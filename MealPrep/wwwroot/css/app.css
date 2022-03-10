@@ -8,10 +8,18 @@
 
 .navBar {
   background-color: #ED7D3A;
+  overflow: hidden;
 }
 
+.navBar p {
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 
-
+.navBar form {
+  padding-top: 50px;
+}
 
 .underline {
   border-bottom: solid, 10px, black;
