@@ -13,7 +13,7 @@
 
 @foreach (Meal meal in Model)
 {
-  <li>@Html.ActionLink(@meal.Date, "Details", new { id = @meal.MealId })</li>
+  <li>@Html.ActionLink("meal.Date", "Details", new { id = @meal.MealId })</li>
 }
 
 <p>@Html.ActionLink("Back to meal generator", "Index", "Home")</p>
