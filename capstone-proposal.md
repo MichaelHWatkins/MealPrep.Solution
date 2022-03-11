@@ -121,3 +121,4 @@ Stretch goal tools: Mainly a more indepth understanding of how spoonacular inter
 * 1:00 - 1:28 Bridge broke the program, had to look up how to uninstall it. Back to css. For some reason the border wont show.
 * 1:28 - 1:41 The css isn't being responsive for some reason.
 * 1:41 - 2:44 Still have the same error where css that I deleted is still being displayed, attempted to update my computer and see if that affected anything and it didn't more googling ahead.
+* 2:44 - 3:25 Continuing to research the bug, may be a corrupted file or something.
