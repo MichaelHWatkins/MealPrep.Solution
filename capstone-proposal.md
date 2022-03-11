@@ -114,3 +114,6 @@ Stretch goal tools: Mainly a more indepth understanding of how spoonacular inter
 * 10:53 - 11:39 Figured out the bug, there was an issue with the database, had to manually create a new table.
 * 11:39 - 11:56 Started the README, working on fleshing it out.
 * 11:56 - 12:08 Finished README.
+
+#### Friday, 03/11
+* 12:00 - 12:30 Working on css. Realized what I really want to do is get a react frontend working so switching to that. Added a nuget called bridge that will hopefully help with that. It didn't but found a new article on the useSpa method I am going to hopefully use to connect things.
