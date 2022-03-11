@@ -1,38 +1,3 @@
 .background {
-  background-color: #0CCE6B;
+  background-color: aqua;
 }
-
-.center {
-  text-align: center;
-}
-
-.searchBar {
-  padding-left: 100px;
-  border: solid, black, 100px;
-
-}
-
-.navBar {
-  box-sizing: border-box;
-  background-color: #ED7D3A;
-  overflow: hidden;
-  border-bottom: black, solid, 100px;
-}
-
-.navBar p {
-  float: right;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-size: 60px;
-}
-
-.navBar form {
-  padding-top: 50px;
-  font-size: large;
-  padding-left: 10px;
-}
-
-.underline {
-  border-bottom: solid, 10px, black;
-}
-

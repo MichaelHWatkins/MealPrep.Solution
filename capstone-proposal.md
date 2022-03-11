@@ -119,3 +119,5 @@ Stretch goal tools: Mainly a more indepth understanding of how spoonacular inter
 * 12:00 - 12:30 Working on css. Realized what I really want to do is get a react frontend working so switching to that. Added a nuget called bridge that will hopefully help with that. It didn't but found a new article on the useSpa method I am going to hopefully use to connect things.
 * 12:30 - 1:00 Came to the conclusion I would need to start a new project to make a react front end work. Will switch back to css.
 * 1:00 - 1:28 Bridge broke the program, had to look up how to uninstall it. Back to css. For some reason the border wont show.
+* 1:28 - 1:41 The css isn't being responsive for some reason.
+* 1:41 - 2:44 Still have the same error where css that I deleted is still being displayed, attempted to update my computer and see if that affected anything and it didn't more googling ahead.
